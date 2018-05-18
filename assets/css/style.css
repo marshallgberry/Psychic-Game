@@ -1,0 +1,84 @@
+.navbar-cleo {
+    background-color: hotpink;
+    background-image: url("../images/misscleotop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+	height: 300px;
+}
+.navbar-lower {
+	background-color: grey;
+    height: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+	padding-left: 16%;
+}
+
+.container {
+	clear: both;
+	padding: 20px;
+}
+.holder {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	font-size: 20pt;
+}
+#center{
+	width: 450px;
+}
+#instruct-div{
+	position: relative;
+	float: left;
+	font-size: large;
+}
+#game-stats-div{
+	float: left;
+	margin-left: 40px;
+	height: 200px;
+	width: 400px;
+	padding: 50px;
+	padding-left: 75px;
+	line-height: 2;
+}
+#misscleoBG{
+    clear:both;
+    background-color: blueviolet;
+    background-blend-mode: luminosity;
+    background-image: url("../images/misscleo.png");
+    background-blend-mode: hard-light;
+    background-size: contain;
+    background-repeat: no-repeat;
+	text-align: left;
+	margin-left: 27px;
+	padding: 0px;
+
+}
+.LG {
+	height: auto;
+	font-weight: bold;
+    font-size: 24pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+}
+.letter-guess-div {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	padding-top: 200px;
+	padding-left: 80px;
+	font-size: 32pt;
+    color: pink;
+    
+
+}
+.foot {
+	clear: both;
+	background-color:grey;
+	height: 40px;
+	color: #fff;
+    text-align: center;
+    padding-top: 8px;
+}
