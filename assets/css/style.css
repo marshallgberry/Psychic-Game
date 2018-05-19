@@ -10,10 +10,11 @@
 	background-color: grey;
     height: 75px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #fff;
+	color: #fff;
     font-size: 25px;
-    font-weight: bold;
-	padding-left: 23%;
+	font-weight: bold;
+	padding-left: 27%;
+	
 }
 
 .container {
