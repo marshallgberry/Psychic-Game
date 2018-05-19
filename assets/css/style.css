@@ -30,12 +30,12 @@
 #center{
 	width: 450px;
 }
-#instruct-div{
+#instructions-div{
 	position: relative;
 	float: left;
 	font-size: large;
 }
-#game-stats-div{
+#stats-div{
 	float: left;
 	margin-left: 40px;
 	height: 200px;
