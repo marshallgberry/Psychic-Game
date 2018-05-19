@@ -31,7 +31,7 @@ var resetGame = function(){
 	randomLetter = letterBank[Math.floor(Math.random() * letterBank.length)];
 };
 
-//print results to HTML
+//results to HTML
 function printToHTML(){
 //writing html to document (after event)
 var statusDOM = "OMG You Are the WINNER: <b>" + winCount + "</b><br>" +
@@ -81,7 +81,7 @@ document.onkeyup = function(event){
 		};
 
 	} else {
-		alert("Please pick a letter");
+		alert("Please choose a letter");
 	};
 
 };
