@@ -16,22 +16,22 @@ var statusDOM =  "OMG You Are the WINNER: <b>" + winCount + "</b><br>" +
 
 var statusMCDOM = userGuessed;
 
-//div to input html above
+//inputs html above
 document.querySelector("#game-stats-div").innerHTML = statusDOM;
 document.querySelector(".letter-guess-div").innerHTML = statusMCDOM;
 
-//generate a random letter from letter bank
+//random letter from letter bank
 var randomLetter = letterBank[Math.floor(Math.random() * letterBank.length)];
 
 
-//game reset
+//reset
 var resetGame = function(){
 	guessLeft = 9;
 	userGuessed = [];
 	randomLetter = letterBank[Math.floor(Math.random() * letterBank.length)];
 };
 
-//function for printing results to HTML
+//print results to HTML
 function printToHTML(){
 //writing html to document (after event)
 var statusDOM = "OMG You Are the WINNER: <b>" + winCount + "</b><br>" +
@@ -40,7 +40,7 @@ var statusDOM = "OMG You Are the WINNER: <b>" + winCount + "</b><br>" +
 
 var statusMCDOM = userGuessed;
 
-//div to input html above
+//inputs html above
 document.querySelector("#game-stats-div").innerHTML = statusDOM;
 document.querySelector(".letter-guess-div").innerHTML = statusMCDOM;
 }
